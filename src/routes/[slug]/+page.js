@@ -1,6 +1,6 @@
 import { fetchOneEntry } from '@builder.io/sdk-svelte';
 
-/** @type {import('./$types').PageServerLoad} */
+/** @type {import('./$types').PageLoad} */
 export async function load() {
   // fetch your Builder content
   const content = await fetchOneEntry({
