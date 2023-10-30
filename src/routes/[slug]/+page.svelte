@@ -9,6 +9,7 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 	export let content = data.content;
+	console.log({data: JSON.stringify(data, null, 4)});
 </script>
 
 <main>
